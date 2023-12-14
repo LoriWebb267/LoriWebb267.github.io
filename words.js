@@ -1,0 +1,16 @@
+export const WORDS = [
+    'borax',
+    'stone',
+    'slate',
+    'rocks',
+    'beryl',
+    'emery',
+    'evian',
+    'lapis',
+    'agate',
+    'fluor',
+    'vichy',
+    'salts',
+    'lodes',
+    'water',
+  ]

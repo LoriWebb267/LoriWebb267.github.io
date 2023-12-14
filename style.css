@@ -1,0 +1,77 @@
+h1 {
+ text-align: center;
+}
+
+#game-board {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.letter-box {
+  border-color: #d6d6d6;
+  border-radius: 3px;
+  margin: 2px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 3px;
+  border-color: rgba(0, 0, 0, 0.055);
+  border-style: dashed;
+}
+
+
+
+.letter-row {
+  display: flex;
+}
+
+#keyboard-cont {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#keyboard-cont div {
+  display: flex;
+  
+}
+
+.second-row {
+  margin: 0.2rem 0;
+}
+
+.keyboard-button {
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 1rem;
+  margin: 0 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-style:dashed;
+  border-color: rgba(0, 0, 0, 0.055);
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 0, 0, 0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
